@@ -1,0 +1,401 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+header .logo img {
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #f1f1f1;
+    transition: transform 0.3s ease;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sign-in-btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+    background-color: #333;
+    color: #fff;
+}
+
+.hero .content h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    text-align: start;
+}
+
+.hero .content span {
+    color: #e67e22;
+}
+
+.hero .content .sign-in-btn {
+    margin-top: 20px;
+}
+
+.hero-image img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.beverages-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.beverages-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.beverage-item {
+    text-align: center;
+}
+
+.beverage-item img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #f1f1f1;
+    transition: transform 0.3s ease;
+}
+
+.beverage-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.beverage-item img:hover {
+    transform: scale(1.1);
+}
+
+/* About Section */
+.about {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+.about h2 {
+font-size: 36px;
+margin-button: 20px;
+}
+.about span{
+color: #e67e22;
+}
+
+.about-description {
+    font-size: 18px;
+    margin: 20px auto;
+    max-width: 700px;
+    line-height: 1.6;
+    color: #666;
+    text-align: start;
+}
+
+.about-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.about-btn {
+    background-color: #e67e22;
+    padding: 12px 20px;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.contact-btn {
+    background-color: #e67e22;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.services {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.services span {
+    color: #e67e22;
+}
+
+.services-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 23%;
+    text-align: center;
+}
+
+.service-item img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.service-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.service-item .read-more {
+    background-color: #e67e22;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.service-item .read-more:hover {
+    background-color: #d35400;
+}
+
+
+/* Pricing Section */
+.pricing-section {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+h1{
+text-align: center;
+}
+
+.pricing-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.pricing-card {
+    display: inline-block;
+    background-color: #f4f4f4;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.pricing-card h2 {
+    font-size: 30px;
+    color: #e67e22;
+    margin-bottom: 20px;
+}
+
+.pricing-card p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.pricing-card ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.pricing-card button {
+    background-color: #e67e22;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pricing-card button:hover {
+    background-color: #d35400;
+}
+.contact-section {
+    padding: 50px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form {
+    width: 45%;
+}
+
+.contact-form h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background-color: #e67e22;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #d35400;
+}
+
+.map {
+    width: 45%;
+}
+
+.map h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-column h4 {
+    color: #ff6600;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 0.5em;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 1em;
+    background-color: #222;
+}
